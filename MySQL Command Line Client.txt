@@ -1,6 +1,7 @@
 create database e_reservations;
 
 use e_reservations;
+
 create table bill(name varchar(20), vehicle_no varchar(20), driver_name varchar(20),from_place varchar(20),destination varchar(20),departure_time time,arrival_time time,price decimal(9,2),vehicle_name varchar(20));
 
 create table card(card_name varchar(20),card_no int(11),cvc int(5),exp_date date);
